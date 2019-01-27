@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>20190127-blog-addadmin | MyBlog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="增加admin管理后台，配置方法很简单： 1. Setup hexo &amp;amp; create a blog这一步在之前的步骤中其实已经执行了12345npm install -g hexocd ~/hexo init my-blogcd my-blognpm install 2. Install the admin &amp;amp; start things up注意一定要进入blog目录再执行123">
+<meta name="keywords" content="python">
+<meta property="og:type" content="website">
+<meta property="og:title" content="20190127-blog-addadmin">
+<meta property="og:url" content="http://yoursite.com/20190127-blog-addadmin/index.html">
+<meta property="og:site_name" content="MyBlog">
+<meta property="og:description" content="增加admin管理后台，配置方法很简单： 1. Setup hexo &amp;amp; create a blog这一步在之前的步骤中其实已经执行了12345npm install -g hexocd ~/hexo init my-blogcd my-blognpm install 2. Install the admin &amp;amp; start things up注意一定要进入blog目录再执行123">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-01-27T10:28:36.620Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="20190127-blog-addadmin">
+<meta name="twitter:description" content="增加admin管理后台，配置方法很简单： 1. Setup hexo &amp;amp; create a blog这一步在之前的步骤中其实已经执行了12345npm install -g hexocd ~/hexo init my-blogcd my-blognpm install 2. Install the admin &amp;amp; start things up注意一定要进入blog目录再执行123">
+  
+    <link rel="alternate" href="/atom.xml" title="MyBlog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">MyBlog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="page-" class="article article-type-page" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/20190127-blog-addadmin/index.html" class="article-date">
+  <time datetime="2019-01-27T09:31:10.000Z" itemprop="datePublished">2019-01-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      20190127-blog-addadmin
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>增加admin管理后台，配置方法很简单：</p>
+<h3 id="1-Setup-hexo-amp-create-a-blog"><a href="#1-Setup-hexo-amp-create-a-blog" class="headerlink" title="1. Setup hexo &amp; create a blog"></a>1. Setup hexo &amp; create a blog</h3><p>这一步在之前的步骤中其实已经执行了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br><span class="line"><span class="built_in">cd</span> ~/</span><br><span class="line">hexo init my-blog</span><br><span class="line"><span class="built_in">cd</span> my-blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></p>
+<h3 id="2-Install-the-admin-amp-start-things-up"><a href="#2-Install-the-admin-amp-start-things-up" class="headerlink" title="2. Install the admin &amp; start things up"></a>2. Install the admin &amp; start things up</h3><p>注意一定要进入blog目录再执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br><span class="line">hexo server -d</span><br><span class="line">open http://localhost:4000/admin/</span><br></pre></td></tr></table></figure></p>
+<h3 id="3-Profit"><a href="#3-Profit" class="headerlink" title="3. Profit!"></a>3. Profit!</h3><p>The UI should be pretty discoverable – let me know if you can’t find something.</p>
+<p>已经已经可以打开了：<a href="http://localhost:4000/admin" target="_blank" rel="noopener">http://localhost:4000/admin</a></p>
+<h3 id="4-Password-protection"><a href="#4-Password-protection" class="headerlink" title="4. Password protection"></a>4. Password protection</h3><p>If you’re using Hexo admin on your live server, you want some password protection. To enable this, you just add a few config variables to your hexo <a href="">_config.yml</a>:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">admin:</span><br><span class="line">  username: myfavoritename</span><br><span class="line">  password_hash: be121740bf988b2225a313fa1f107ca1</span><br><span class="line">  secret: a secret something</span><br></pre></td></tr></table></figure></p>
+<p>将上述配置增加到 <a href="">_config.yml</a>:中，之后登陆admin的时候就开始需要输入用户名和密码</p>
+<h3 id="5-Custom-post-metadata"><a href="#5-Custom-post-metadata" class="headerlink" title="5. Custom post metadata"></a>5. Custom post metadata</h3><p>To add and edit your own post metadata with the admin interface, add the metadata variable and your custom variables to your hexo _config.yml:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">metadata:</span><br><span class="line">  author_id: defaultAuthorId</span><br><span class="line">  language:</span><br><span class="line">You can provide default values that will be used to initialize the metadata of a new post.</span><br></pre></td></tr></table></figure></p>
+<h3 id="6-Contribute"><a href="#6-Contribute" class="headerlink" title="6. Contribute!"></a>6. Contribute!</h3><p>let me know how it can be improved in the github issues<br>fork and pull-request</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/20190127-blog-addadmin/index.html" data-id="cjrerl2ge0001zea79npcyows" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/01/22/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 Derek<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
